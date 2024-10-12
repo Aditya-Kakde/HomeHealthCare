@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Patient Name" />
+
+    <TextView
+        android:id="@+id/patient_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: "
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/patient_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disease: "
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/patient_care_required"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Care: "
+        android:layout_marginTop="4dp" />
+</LinearLayout>
